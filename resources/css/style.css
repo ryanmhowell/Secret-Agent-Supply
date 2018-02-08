@@ -1,0 +1,38 @@
+/*header styling section*/
+
+header, #moto-text, #images p, footer {
+  background-color: black;
+  color: white;
+}
+
+header div {
+  display: flex;
+}
+
+#heading p, #moto-text {
+  text-transform: uppercase;
+}
+
+
+
+/*main styling section*/
+
+
+
+#moto {
+  background-image: url("../images/moto.jpeg");
+}
+
+
+
+nav ul {
+  width: 100%;
+  display: inline-flex;
+  background-color: crimson;
+  color: white;
+}
+
+.info p {
+  background-color: white;
+  color: black;
+}
