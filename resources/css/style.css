@@ -76,6 +76,9 @@ nav ul {
   justify-content: space-between;
 }
 
+#menu {
+  display:none;
+}
 
 /*images styling section*/
 
@@ -156,12 +159,95 @@ footer {
 
 
 @media only screen and (max-width: 1024px) {
+
+  .large-screen {
+    max-width: 100%;
+  }
+
   #glasses {
     display: none;
   }
 
   .image {
     width: 47%;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .menu-item {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: space-around;
+  }
+
+  footer {
+    max-width: 100%;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 470px) {
+
+  .large-screen {
+    max-width: 100%;
+  }
+
+
+  #moto {
+    width: 100%;
+  }
+
+
+
+  footer p {
+    text-align: center;
+  }
+
+  #store-info {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 4rem;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  #pen {
+    width: 90%;
+  }
+
+  #images {
+    justify-content: center;
+  }
+
+  #moto {
+    height: 15rem;
+    padding-top: 10rem;
+  }
+
+  #new-arrival {
+    font-size: 0.77rem;
+  }
+
+  #sport-bikes {
+    font-size: 1rem;
+  }
+
+  .info {
+    margin-top: 2rem;
+    width: 100%;
   }
 
 }
