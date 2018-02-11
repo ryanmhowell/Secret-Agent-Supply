@@ -198,6 +198,7 @@ footer {
 
   .large-screen {
     max-width: 100%;
+    overflow: hidden;
   }
 
 
@@ -230,10 +231,13 @@ footer {
     height: 15rem;
     padding-top: 10rem;
     width: 100%;
+    display: flex;
+    align-items: flex-end;
   }
 
   #moto-text {
     padding: 2rem 0;
+    padding-left: 1rem;
     margin: 0;
     width: 100%;
   }
