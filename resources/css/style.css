@@ -201,12 +201,6 @@ footer {
   }
 
 
-  #moto {
-    width: 100%;
-  }
-
-
-
   footer p {
     text-align: center;
   }
@@ -235,6 +229,13 @@ footer {
   #moto {
     height: 15rem;
     padding-top: 10rem;
+    width: 100%;
+  }
+
+  #moto-text {
+    padding: 2rem 0;
+    margin: 0;
+    width: 100%;
   }
 
   #new-arrival {
