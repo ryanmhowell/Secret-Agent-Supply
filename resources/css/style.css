@@ -78,7 +78,44 @@ nav ul {
 
 #menu {
   display:none;
+  width: 100%;
 }
+
+.dropbtn {
+  background-color: firebrick;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: firebrick;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 1.3rem 2rem;
+  border-top: 1px solid black;
+  align-self: center;
+}
+
+.dropdown-content a:hover {
+  background-color: hsl(0, 67.93%, 61.56%);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /*images styling section*/
 
@@ -173,12 +210,19 @@ footer {
   }
 
   #menu {
-    display: block;
+    display: flex;
+
+  }
+
+  button {
+    font-size: 1.4rem;
+    border: none;
   }
 
   .menu-item {
     display: none;
   }
+
 
   nav ul {
     justify-content: space-around;
